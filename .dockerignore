@@ -1,0 +1,31 @@
+node_modules
+.next
+dist
+build
+coverage
+.tmp
+.temp
+
+# 日志
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Git / IDE
+.git
+.gitignore
+.vscode
+.idea
+*.swp
+*.swo
+
+# Docker / 文档文件
+Dockerfile
+docker-compose.yml
+README_DOCKER.md
+
+# 系统文件
+.DS_Store
+Thumbs.db
