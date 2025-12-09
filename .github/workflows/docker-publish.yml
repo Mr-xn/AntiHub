@@ -18,7 +18,7 @@ jobs:
 
     env:
       REGISTRY: ghcr.io
-      IMAGE_NAME: antihub-project/antihub-frontend
+      IMAGE_NAME: ${{ github.repository_owner }}/antihub-frontend
 
     steps:
       - name: Checkout repository
