@@ -39,7 +39,6 @@ jobs:
           tags: |
             type=ref,event=branch
             type=ref,event=tag
-            type=sha
             type=raw,value=latest,enable=${{ github.ref == 'refs/heads/main' }}
 
       - name: Set up Docker Buildx
